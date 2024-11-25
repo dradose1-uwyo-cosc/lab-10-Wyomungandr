@@ -1,6 +1,6 @@
 # Andrew Sharum
 # UWYO COSC 1010
-# 19NOV24
+# 24NOV24
 # Lab 10
 # Lab Section: 11
 # Sources, people worked with, help given to: 
@@ -60,7 +60,7 @@ if stored_hash:
                     print(f"Password found: {password}")
                     break
             else:
-                print("Password not found in the list.")
+                print("Password was not found in the list.")
     except FileNotFoundError:
         print("Error: The file 'rockyou.txt' was not found.")
     except Exception as e:
